@@ -15,7 +15,7 @@ function App() {
     setVerdict(null);
 
     try {
-      const response = await fetch('http://localhost:5000/api/judge', {
+      const response = await fetch('https://ai-outfit-judge-backend.onrender.com/api/judge', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
